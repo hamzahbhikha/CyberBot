@@ -8,10 +8,6 @@
 		<UseWindowsForms>true</UseWindowsForms>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <Compile Include=".gitignore" />
-	</ItemGroup>
-
   <ItemGroup>
     <None Update="greeting.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
