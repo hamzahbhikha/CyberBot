@@ -1,16 +1,16 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace CyberBot
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
-            ConsoleUI.PlayGreetingSound();
-            ConsoleUI.ShowLogo();
-
-            ChatBot bot = new ChatBot();
-            bot.Start();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
         }
     }
 }
