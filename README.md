@@ -29,6 +29,6 @@ A Windows Forms chatbot that teaches users about cybersecurity: passwords, phish
 ![CI screenshot](ci-screenshot.png)
 
 ## Video Presentation
-[Part 2 YouTube link here]
+https://youtu.be/C0nMAu9jB00
 
 Part 1 (console version) video: https://www.youtube.com/watch?v=LwVLmS66s_w
