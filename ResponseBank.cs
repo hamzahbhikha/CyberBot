@@ -5,7 +5,7 @@ namespace CyberBot
     // All keywords and responses live here, organised in dictionaries and lists
     public static class ResponseBank
     {
-        public const string DefaultResponse = "I'm not sure I understand. Can you try rephrasing? You can ask me about passwords, phishing, scams, privacy, malware or safe browsing.";
+        public const string DefaultResponse = "I'm not sure I understand. Can you try rephrasing? You can ask about passwords, phishing, scams, privacy, malware or safe browsing, or say things like 'add a task', 'start the quiz' or 'show activity log'.";
 
         // Keywords that trigger each topic
         public static readonly Dictionary<string, string[]> Keywords = new Dictionary<string, string[]>
