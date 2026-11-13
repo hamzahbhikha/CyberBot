@@ -30,7 +30,7 @@ A Windows Forms chatbot that teaches South African users about cybersecurity, wi
 ![CI screenshot](ci-screenshot.png)
 
 ## Video Presentation
-[Part 3 YouTube link here]
+https://youtu.be/a2zYQEQI3ys
 
 Part 1 video: https://www.youtube.com/watch?v=LwVLmS66s_w
 Part 2 video: https://youtu.be/C0nMAu9jB00
