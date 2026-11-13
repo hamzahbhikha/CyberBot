@@ -10,6 +10,20 @@ namespace CyberBot
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            try
+            {
+                DatabaseHelper.Initialize();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    "Could not connect to MySQL. The task assistant needs the database.\n\n" + ex.Message,
+                    "Database error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+
             Application.Run(new MainForm());
         }
     }
